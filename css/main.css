@@ -1,0 +1,823 @@
+
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+html {
+    font-size: 1em;
+    /*line-height: 1.4;*/
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+body {
+    background: #000;
+    font-family: Montserrat, Helvetica;
+    width: 100%;
+}
+
+#bg {
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: #fff;
+    background-attachment: fixed;
+    background-position: 0 4em;
+}
+
+.header-container {
+	background: #000;
+    margin: 0 auto;
+    position: fixed;
+    width: 100%;
+}
+
+.main-container {
+    padding-top: 4em;
+}
+
+.main {
+    margin: 0 auto;
+}
+
+.footer-container{
+    margin: 0 auto;
+}
+
+/* ===================
+    ALL: Theme
+   =================== */
+
+.title {
+    color: #000;
+    text-transform: uppercase;
+}
+
+p.info {
+	background: url('../img/icon4.png') no-repeat right 0;
+	min-height: 5em;
+}
+
+p.aesg {
+    text-align: center;
+}
+
+p .aesg {
+    background-image: url("../img/logo-small.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    height: 55px;
+    width: 55px;
+}
+
+.button {
+    background: #000;
+    clear: both;
+    color: #fff;
+	display: inline-block;
+	font-size: 0.9em;
+	margin: 1em 0;
+    padding: 0.4em 3.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: auto;
+}
+
+.button:hover {
+	color: #c2c2c2;
+}
+
+
+#home .main {
+    text-align: center;
+}
+
+#home img {
+    margin: 0 auto 0 0;
+    height: auto;
+    width: 40%;
+}
+
+#home p {
+    text-transform: uppercase;
+}
+
+.aesgsmall {
+    text-align: center;
+}
+
+.aesgsmall span {
+    background-image: url("../img/logo-small.png");
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    min-width: 55px;
+    min-height: 55px;
+	text-indent: -999em;
+}
+
+.footer-container h3 {
+    font-size: 0.7em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer-container p {
+    font-size: 0.7em;
+    line-height: 1.4em;
+}
+
+.footer-container p.copyright{
+}
+
+#home h1 {
+	font-size: 272%;
+}
+
+#aesg section, #aesg aside {
+    padding: 0.5em 0 0.5em;
+    margin-bottom: 1em;
+}
+
+#aesg section h1, #aesg aside h1 {
+    font-size: 2em;
+    font-weight: normal;
+}
+
+#aesg section p, #aesg aside dl {
+    font-size: 0.8em;
+}
+
+#aesg aside dt {
+	clear: both;
+	float: left;
+	font-weight: bold;
+	padding-right: 4px;
+	text-transform: uppercase;
+	width: auto;
+}
+
+#aesg aside dd {
+	margin: 0 0 1em 0;
+}
+
+#aesg article section {
+	padding-left: 7.5em;
+	width: 71%;
+}
+
+#aesg aside img {
+	float: left;
+	margin: 3.5em 1em 0 0;
+}
+
+#aesg aside .aside {
+	border-left: 1px solid #000;
+	float: left;
+	padding-left: 1em;
+	width: 78%;
+}
+
+#eventos .main {
+	padding: 2em 1em 1em;
+} 
+
+#eventos article {
+	width: 35%;	
+}
+
+#eventos article h1 {
+	border-bottom: 3px solid #000;
+	font-size: 1em;
+	padding-bottom: 0.8em;
+}
+
+#eventos article p {
+	font-size: 0.8em;
+}
+
+#eventos article strong {
+	font-size: 1em;
+	text-transform: uppercase;
+}
+
+#eventos aside {
+	text-align: center;
+}
+
+#eventos aside img {
+    width: 70%;
+    height: auto;
+}
+
+.button-eventos {
+	background: #363636;
+	clear: both;
+	color: #fff;
+	float: left;
+	font-size: 0.8em;
+	font-weight: bold;
+	margin: 0.8em 0 2em;
+	padding: 0.4em 4em;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: auto;
+}
+
+.button-eventos:hover {
+	color: #c2c2c2;
+}
+
+#contato article {
+	width: 100%;
+}
+
+#contato h1 {
+	font-size: 1.5em;
+}
+
+#contato p {
+	font-size: 0.8em;
+}
+
+#contato form ul {
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+
+#contato form ul li {
+	clear: both;
+	float: left;
+	font-size: 0.8em;
+	list-style-type: none;
+	margin: 0 1em 1em 0;
+	text-transform: uppercase;
+	width: 40%;
+}
+
+#contato .mensagem {
+	clear: none;
+	float: left;
+	margin-top: -5.8em;
+}
+
+#contato label {
+	float: left;
+	margin: 0 0.5em 0 0;
+	min-width: 70px;
+	width: auto;
+}
+
+#contato input {
+	padding: 0.5em;
+	width: 70%;
+}
+
+#contato textarea {
+	float: right;
+	margin: 0;
+	min-height: 10em;
+	padding: 0.5em;
+	resize: none;
+	width: 70%;
+}
+
+#contato input,
+#contato textarea {
+	background: #fff;
+	border: 0;
+	border-bottom: 1px solid #c2c2c2;
+	font-size: 0.9em;	
+}
+
+#contato input:focus,
+#contato textarea:focus {
+	background: #f0f0f0;
+}
+
+#contato #enviar {
+	color: #000;
+	background: #fff;
+	border: 1px solid #dedede;
+	border-bottom: 4px solid #c2c2c2;
+	float: right;
+	padding: 0.8em 2.5em;
+	text-transform: uppercase;
+	width: auto;
+}
+#contato #enviar:hover {
+	background: #f9f9f9;
+}
+
+#contato #enviar:focus {
+	border-color: #d3d3d3;
+	border-style: solid;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-width: 2px;
+	border-right-width: 2px;
+}
+
+label.error {
+	color: #ff0000;
+	font-size: 0.9em;
+	margin-left: 78px !important;
+	text-transform: none;
+}
+
+.mensagem label.error {
+	margin-left: 115px !important;
+}
+
+.response-msg {
+	color: #ff0000;
+	font-size: 1em;
+	text-align: center;
+}
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+}
+
+nav a {
+    color: #FFF;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+	color: #c2c2c2;
+    text-decoration: none;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 30px 1em;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    padding: 0px 5% 10px;
+}
+
+.footer-container footer {
+    color: white;
+    padding: 20px 1em;
+}
+
+.footer-container a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.main article h1, .main aside h1 {
+    text-transform: uppercase;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (max-width: 780px) {
+	#aesg article section {
+		float: none;
+		width: 80%;
+	}
+
+	#aesg .main article {
+		float: none;
+		width: 60%;
+    }
+    
+    #aesg .main aside {
+    	margin-left: 0;
+	}
+	
+	#eventos article {
+    	width: 100%;
+	}
+	
+	#eventos aside {
+    	width: 100%;
+    	padding: 0;
+    	text-align: center;
+	}
+	
+	#eventos aside img {
+    	width: 70%;
+	}
+
+	#contato form ul {
+		padding: 1em;
+	}	
+	
+	#contato form ul li {
+		display: block;
+		float: none;
+		margin-bottom: 2em;
+		width: 100%;
+	}
+	
+	#contato .mensagem.right {
+		float: none !important;
+	}
+
+	#contato .mensagem {
+		margin-bottom: 2em;
+		margin-top: 1em;	
+		overflow: hidden;
+	}
+	
+	.mensagem label.error {
+    	margin-left: 85px !important;
+	}
+	
+	#contato textarea {
+		float: left;
+	}
+	
+	#contato #enviar {
+		margin-right: 9em;
+	}
+	
+}
+
+@media only screen and (max-width: 600px) {
+	nav ul li {
+		margin-right: 0.5em;
+		width: 6em;
+	}
+	
+	#home h1 {
+    	font-size: 150%;
+	}
+	
+	p.info {
+		background-position: center bottom;
+		margin-bottom: 2em;
+		padding-bottom: 6em;
+	}
+	
+}
+
+@media only screen and (max-width: 550px) {
+	nav ul li {
+		display: block;
+		float: none;
+		margin: 0;
+		text-align: center;
+		width: 100%;
+	}
+	
+	nav ul li a {
+		float: none;
+		display: block;
+		padding-bottom: 0;
+		text-align: center;
+	}
+	
+	.main-container {
+		padding-top: 8em;
+	}
+	
+	#aesg .main article {
+		background-image: none!important;
+		width: 100%;
+	}
+	
+	#aesg article section  {
+		padding-left: 1em;
+	    width: 80%;
+	}
+	
+	#aesg .main aside {
+		margin-left: 0 !important;
+	}
+	
+	#aesg aside img {
+		display: none;
+	}
+
+	#aesg aside .aside {
+		border: 0;
+		padding-left: 1em;
+	    width: 90%;
+	}
+	
+	#contato #enviar {
+		margin-right: 4em;
+	}
+
+}
+
+@media only screen and (max-width: 480px) {
+	#contato textarea {
+    	float: none;
+	}
+	
+	#contato label {
+		display: block;
+		float: none;
+	}
+	
+	#contato label.error {
+		margin-left: 0 !important;
+	}
+
+	#contato .mensagem label.error {
+		display: block;
+		float: none;
+		margin-left: 0 !important;
+	}
+}
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    nav a {
+        float: left;
+        width: auto;
+        padding: 15% 2% 10%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child, nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child, nav li:last-child a {
+        margin-right: 0;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline-block;
+        margin-right: 1.5%;
+        overflow: hidden;
+        width: 18%;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+    
+    #aesg .main aside {
+    	float: left;
+    	margin-left: 2.5em;
+    	width: 80%;
+	}
+    
+}
+
+@media only screen and (min-width: 500px) {
+   	#aesg .main article {
+       	background: url('../img/icons2.png') no-repeat 0 0;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container,
+    .main aside {
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        /*float: left;*/
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        float: left;
+        width: 45%;
+    }
+
+    .main aside {
+        float: right;
+        width: 45%;
+    }
+	
+	#aesg .main article {
+		width: 45%;
+    }
+
+    #home h1 {
+		font-size: 272%;
+	}
+}
+
+@media only screen and (min-width: 780px) {
+	#aesg .main aside {
+        width: 50%;
+    }    
+}
+
+@media only screen and (min-width: 780px) and (max-width:1140px) {
+	#eventos article {
+        width: 45%;
+    }
+    
+    #eventos aside {
+        width: 45%;
+    }
+    
+    #eventos aside img {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.right {
+	float: right !important;
+}
+
+.clear {
+	clear: both;
+}
+
+.div {
+	border-bottom: 2px dotted #999;
+	display: block;
+	margin: 0 auto;
+	width:50%;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
